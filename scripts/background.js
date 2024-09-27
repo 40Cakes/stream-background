@@ -2,6 +2,7 @@ max_onscreen = 16;
 shiny_odds = 1 / 128;
 reload_mins = 5;
 big_wailords = true;
+spheal_spin = true;
 
 create();
 window.onload = function () {
@@ -61,6 +62,10 @@ function create() {
             special = "wailord"
         }
 
+        if (form == "spheal" && spheal_spin) {
+			special = "spheal"
+		}
+
         onscreen_pokemon += '<img class="' + special + sparkle + '" id="' + area + '" src="sprites/' + shiny + form + '.gif" onerror="this.style.display=\'none\'" alt=/>';
     });
 
@@ -88,6 +93,11 @@ var randomOrder = function () {
                 y -= 200;
                 z = 6969696969;
             }
+
+            if (image['className'] == "sphealnone" || image['className'] == "sphealsparkle") {
+                $('.sphealnone').css('margin-top', y)
+				$('.sphealsparkle').css('margin-top', y)
+			}
 
             image.style.cssText += "--x-position:" + x + "px; --y-position:" + y + "px; z-index:" + z;
 

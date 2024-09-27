@@ -12,6 +12,11 @@ img {
     -ms-animation: fadeIn ease 5s;
 }
 
+.sphealnone, .sphealsparkle {
+	animation: spin linear 5s infinite;
+	-webkit-animation: spin linear 5s infinite;
+}
+
 .wailordnone {
     image-rendering: crisp-edges;
     max-width: 500px;
