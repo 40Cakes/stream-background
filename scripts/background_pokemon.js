@@ -271,6 +271,8 @@ pokemon = [{
 }, {
     "clobbopus": ["clobbopus"]
 }, {
+    "clodsire": ["clodsire"]
+}, {
     "cloyster": ["cloyster"]
 }, {
     "coalossal": ["coalossal", "coalossal-gigantamax"]
@@ -1641,6 +1643,8 @@ pokemon = [{
 }, {
     "tarountula": ["tarountula"]
 }, {
+    "tatsugiri": ["tatsugiri", "tatsugiri-droopy", "tatsugiri-stretchy"]
+}, {
     "tauros": ["tauros"]
 }, {
     "teddiursa": ["teddiursa"]
@@ -1662,6 +1666,12 @@ pokemon = [{
     "thwackey": ["thwackey"]
 }, {
     "timburr": ["timburr"]
+}, {
+    "tinkatink": ["tinkatink"]
+}, {
+    "tinkaton": ["tinkaton"]
+}, {
+    "tinkatuff": ["tinkatuff"]
 }, {
     "tirtouga": ["tirtouga"]
 }, {
@@ -1837,7 +1847,7 @@ pokemon = [{
 }, {
     "wooloo": ["wooloo"]
 }, {
-    "wooper": ["wooper", "wooper-f"]
+    "wooper": ["wooper", "wooper-f", "wooper-paldea"]
 }, {
     "wormadam": ["wormadam", "wormadam-sandy", "wormadam-trash"]
 }, {
