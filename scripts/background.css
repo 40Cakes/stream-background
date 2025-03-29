@@ -1,4 +1,5 @@
 img {
+    image-rendering: crisp-edges;
     position: absolute;
     max-width: 196px;
     height: auto;
@@ -13,11 +14,11 @@ img {
 }
 
 .sphealnone, .sphealsparkle {
-    animation: spin linear 5s infinite;
-    -webkit-animation: spin linear 5s infinite;
-    -ms-animation: spin linear 5s infinite;
-    -o-animation: spin linear 5s infinite;
-    -moz-animation: spin linear 5s infinite;
+    animation: spin linear 5s infinite, fadeIn ease 5s;
+    -webkit-animation: spin linear 5s infinite, fadeIn ease 5s;
+    -ms-animation: spin linear 5s infinite, fadeIn ease 5s;
+    -o-animation: spin linear 5s infinite, fadeIn ease 5s;
+    -moz-animation: spin linear 5s infinite, fadeIn ease 5s;
 }
 
 .wailordnone {
