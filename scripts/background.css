@@ -20,6 +20,10 @@ img {
     -moz-animation: spin linear 5s infinite;
 }
 
+.anti {
+    filter: invert(1);
+}
+
 .wailordnone {
     image-rendering: crisp-edges;
     max-width: 500px;

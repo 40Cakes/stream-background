@@ -8,7 +8,10 @@ const config = {
     swarmOdds: 1 / 64,
     fakemonOdds: 1 / 128, // Chance to add a single "fakemon" from Smogon's CAP - https://www.smogon.com/dex/ss/formats/cap/
     bigWailords: true, // BIG FUCKINF WAILORD
-    sphealSpin: true // Spinny boi
+    sphealSpin: true, // Spinny boi
+    antiShiny: false, // Enables the chance for an anti shiny Pokémon to appear
+    antiShinySplit: true, // Enables shiny Pokémon having a 50% chance of appearing as an anti shiny, if disabled uses antiOdds instead
+    antiOdds: 1 / 128 // Odds of an anti shiny Pokémon appearing if antiShinySplit is false
 };
 
 // Create background elements on load
@@ -48,7 +51,26 @@ function create() {
         }
 
         const isShiny = Math.random() < config.shinyOdds;
-        const sparkleClass = isShiny ? "sparkle" : "none";
+        if(config.antiShiny)
+        {
+            const isAnti = Math.random() < config.antiOdds;
+            if(config.antiShinySplit && Math.random() < 0.5)
+            {
+                sparkleColor = isShiny ? "anti" : "none";
+            }
+            else if(!config.antiShinySplit && !isShiny)
+            {
+                sparkleColor = isAnti ? "anti" : "none";
+            }
+            else
+            {
+                sparkleColor = isShiny ? "sparkle" : "none";
+            }
+        }
+        else{
+            sparkleColor = isShiny ? "sparkle" : "none";
+        }
+        const sparkleClass = sparkleColor
         const spritePath = isShiny ? "shiny/" : "normal/";
         const area = floating_pokemon.includes(form) ? "sky" : "ground";
 
@@ -108,21 +130,38 @@ function randomOrder() {
             `;
 
             // Add sparkle images
-            if (sprite.classList.contains("sparkle") || sprite.classList.contains("wailordsparkle")) {
+            if (sprite.classList.contains("sparkle") || sprite.classList.contains("wailordsparkle") || sprite.classList.contains("anti")) {
                 const offset = sprite.offsetWidth / 6;
                 const sparkleSize = sprite.offsetWidth * 1.3;
                 const sparkleMaxSize = sprite.classList.contains("wailordsparkle") ? 1000 : 150;
 
-                sparklesHTML += `
-                    <img style="--x-position: ${x + (sprite.classList.contains("wailordsparkle") ? offset : -offset)}px; 
-                                 --y-position: ${y - offset}px; 
-                                 z-index: -1; width: ${sparkleSize}px; 
-                                 max-height: ${sparkleMaxSize}px; max-width: ${sparkleMaxSize}px;" 
-                         src="./sprites/sparkles.gif" 
-                         onerror="this.style.display='none'" 
-                         alt="Sparkle">
-                `;
-            }
+                if(sprite.classList.contains("anti"))
+                    {
+                        sparklesHTML += `
+                        <img style="--x-position: ${x + (sprite.classList.contains("wailordanti") ? offset : -offset)}px; 
+                                     --y-position: ${y - offset}px; 
+                                     z-index: 1; width: ${sparkleSize}px; 
+                                     max-height: ${sparkleMaxSize}px; max-width: ${sparkleMaxSize}px; 
+                                     filter: invert(1)" 
+                             src="./sprites/sparkles.gif" 
+                             class="sparklegif" 
+                             onerror="this.style.display='none'" 
+                             alt="Sparkle">
+                    `;   
+                    }
+                    else{
+                    sparklesHTML += `
+                        <img style="--x-position: ${x + (sprite.classList.contains("wailordsparkle") ? offset : -offset)}px; 
+                                     --y-position: ${y - offset}px; 
+                                     z-index: 1; width: ${sparkleSize}px; 
+                                     max-height: ${sparkleMaxSize}px; max-width: ${sparkleMaxSize}px;" 
+                             src="./sprites/sparkles.gif" 
+                             class="sparklegif" 
+                             onerror="this.style.display='none'" 
+                             alt="Sparkle">
+                    `;
+                    }
+                }
         });
     }
 
