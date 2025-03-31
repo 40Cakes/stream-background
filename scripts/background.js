@@ -8,7 +8,8 @@ const config = {
     swarmOdds: 1 / 64,
     fakemonOdds: 1 / 128, // Chance to add a single "fakemon" from Smogon's CAP - https://www.smogon.com/dex/ss/formats/cap/
     bigWailords: true, // BIG FUCKINF WAILORD
-    sphealSpin: true // Spinny boi
+    sphealSpin: true, // Spinny boi
+    afd: true, // April Fools day sprite replacement
 };
 
 // Create background elements on load
@@ -25,6 +26,22 @@ $(function () {
 
 // Generate Pokémon and their attributes
 function create() {
+    let afd = false
+    const now = new Date();
+    if (config.afd && now.getMonth() == 3 && now.getDate() == 1) { // 1st of April
+        afd = true
+    }
+
+    if (afd){
+        pokemon = afd_pokemon
+        fakemon = afd_fakemon
+        spriteDir = "sprites/afd-"
+        spriteExt = "png"
+    } else {
+        spriteDir = "sprites/"
+        spriteExt = "gif"
+    }
+
     let onscreenPokemon = "";
     const shuffledPokemon = shuffle(pokemon).slice(0, config.maxOnscreen);
 
@@ -49,7 +66,7 @@ function create() {
 
         const isShiny = Math.random() < config.shinyOdds;
         const sparkleClass = isShiny ? "sparkle" : "none";
-        const spritePath = isShiny ? "shiny/" : "normal/";
+        const spritePath = isShiny ? spriteDir + "shiny/" : spriteDir + "normal/";
         const area = floating_pokemon.includes(form) ? "sky" : "ground";
 
         // Special cases
@@ -60,7 +77,7 @@ function create() {
         // Append the Pokémon sprite
         onscreenPokemon += `
             <img class="${specialClass}${sparkleClass}" id="${area}" 
-                 src="sprites/${spritePath}${form}.gif" 
+                 src="${spritePath}${form}.${spriteExt}"
                  onerror="this.style.display='none'" 
                  alt="Pokemon">
         `;
