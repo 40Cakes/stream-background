@@ -31,6 +31,8 @@ pokemon = [{
 }, {
     "ampharos": ["ampharos", "ampharos-mega"]
 }, {
+    "annihilape": ["annihilape"]
+}, {
     "anorith": ["anorith"]
 }, {
     "appletun": ["appletun", "appletun-gigantamax"]
@@ -341,6 +343,8 @@ pokemon = [{
 }, {
     "cutiefly": ["cutiefly"]
 }, {
+    "cyclizar": ["cyclizar"]
+}, {
     "cyndaquil": ["cyndaquil"]
 }, {
     "darkrai": ["darkrai"]
@@ -540,6 +544,8 @@ pokemon = [{
     "flabebe": ["flabebe", "flabebe-blue", "flabebe-orange", "flabebe-white", "flabebe-yellow"]
 }, {
     "flapple": ["flapple", "flapple-gigantamax"]
+}, {
+    "flamigo": ["flamigo"]
 }, {
     "flareon": ["flareon"]
 }, {
@@ -1181,6 +1187,12 @@ pokemon = [{
 }, {
     "patrat": ["patrat"]
 }, {
+    "pawmi": ["pawmi"]
+}, {
+    "pawmo": ["pawmo"]
+}, {
+    "pawmot": ["pawmot"]
+}, {
     "pawniard": ["pawniard"]
 }, {
     "pelipper": ["pelipper"]
@@ -1285,7 +1297,7 @@ pokemon = [{
 }, {
     "quilladin": ["quilladin"]
 }, {
-    "qwilfish": ["qwilfish"]
+    "qwilfish": ["qwilfish", "qwilfish-hisui"]
 }, {
     "raboot": ["raboot"]
 }, {
@@ -1560,6 +1572,8 @@ pokemon = [{
     "sprigatito": ["sprigatito"]
 }, {
     "spritzee": ["spritzee"]
+}, {
+    "squawkabilly": ["squawkabilly", "squawkabilly-blue", "squawkabilly-white", "squawkabilly-yellow"]
 }, {
     "squirtle": ["squirtle"]
 }, {
@@ -4942,6 +4956,10 @@ floating_pokemon = [
     "solosis",
     "solrock",
     "spritzee",
+    "squawkabilly",
+    "squawkabilly-blue",
+    "squawkabilly-white",
+    "squawkabilly-yellow"
     "staraptor",
     "staraptor-f",
     "staravia",
