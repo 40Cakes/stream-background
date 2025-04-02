@@ -4959,7 +4959,7 @@ floating_pokemon = [
     "squawkabilly",
     "squawkabilly-blue",
     "squawkabilly-white",
-    "squawkabilly-yellow"
+    "squawkabilly-yellow",
     "staraptor",
     "staraptor-f",
     "staravia",
