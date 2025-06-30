@@ -155,6 +155,10 @@ pokemon = [{
 }, {
     "braixen": ["braixen"]
 }, {
+    "brambleghast": ["brambleghast"]
+}, {
+    "bramblin": ["bramblin"]
+}, {
     "braviary": ["braviary", "braviary-hisui"]
 }, {
     "breloom": ["breloom"]
@@ -386,6 +390,8 @@ pokemon = [{
     "diggersby": ["diggersby"]
 }, {
     "diglett": ["diglett", "diglett-alola"]
+}, {
+    "dipplin": ["dipplin"]
 }, {
     "ditto": ["ditto"]
 }, {
@@ -629,6 +635,10 @@ pokemon = [{
 }, {
     "gligar": ["gligar", "gligar-f"]
 }, {
+    "glimmet": ["glimmet"]
+}, {
+    "glimmora": ["glimmora"]
+}, {
     "gliscor": ["gliscor"]
 }, {
     "gloom": ["gloom", "gloom-f"]
@@ -664,6 +674,8 @@ pokemon = [{
     "gothorita": ["gothorita"]
 }, {
     "gourgeist": ["gourgeist", "gourgeist-large", "gourgeist-small", "gourgeist-super"]
+}, {
+    "grafaiai": ["grafaiai"]
 }, {
     "granbull": ["granbull"]
 }, {
@@ -767,6 +779,8 @@ pokemon = [{
 }, {
     "huntail": ["huntail"]
 }, {
+    "hydrapple": ["hydrapple"]
+}, {
     "hydreigon": ["hydreigon"]
 }, {
     "hypno": ["hypno", "hypno-f"]
@@ -823,13 +837,19 @@ pokemon = [{
 }, {
     "keldeo": ["keldeo", "keldeo-resolute"]
 }, {
+    "kilowattrel": ["kilowattrel"]
+}, {
     "kingdra": ["kingdra"]
+}, {
+    "kingambit": ["kingambit"]
 }, {
     "kingler": ["kingler", "kingler-gigantamax"]
 }, {
     "kirlia": ["kirlia"]
 }, {
     "klang": ["klang"]
+}, {
+    "klawf": ["klawf"]
 }, {
     "kleavor": ["kleavor"]
 }, {
@@ -1249,6 +1269,8 @@ pokemon = [{
 }, {
     "poliwrath": ["poliwrath"]
 }, {
+    "poltchageist": ["poltchageist"]
+}, {
     "polteageist": ["polteageist"]
 }, {
     "ponyta": ["ponyta", "ponyta-galar"]
@@ -1461,6 +1483,8 @@ pokemon = [{
 }, {
     "shinx": ["shinx", "shinx-f"]
 }, {
+    "shroodle": ["shroodle"]
+}, {
     "shroomish": ["shroomish"]
 }, {
     "shuckle": ["shuckle"]
@@ -1480,6 +1504,8 @@ pokemon = [{
     "simisage": ["simisage"]
 }, {
     "simisear": ["simisear"]
+}, {
+    "sinistcha": ["sinistcha"]
 }, {
     "sinistea": ["sinistea"]
 }, {
@@ -1689,6 +1715,10 @@ pokemon = [{
 }, {
     "tirtouga": ["tirtouga"]
 }, {
+    "toedscool": ["toedscool"]
+}, {
+    "toedscruel": ["toedscruel"]
+}, {
     "togedemaru": ["togedemaru"]
 }, {
     "togekiss": ["togekiss"]
@@ -1828,6 +1858,8 @@ pokemon = [{
     "wartortle": ["wartortle"]
 }, {
     "watchog": ["watchog"]
+}, {
+    "wattrel": ["wattrel"]
 }, {
     "weavile": ["weavile", "weavile-f"]
 }, {
@@ -4836,6 +4868,8 @@ floating_pokemon = [
     "glalie-mega",
     "gligar",
     "gligar-f",
+    "glimmet",
+    "glimmora",
     "gliscor",
     "golbat",
     "golbat-f",
@@ -4854,6 +4888,7 @@ floating_pokemon = [
     "jirachi",
     "jumpluff",
     "kartana",
+    "kilowattrel",
     "klang",
     "klefki",
     "klink",
@@ -4921,6 +4956,7 @@ floating_pokemon = [
     "pinsir-mega",
     "plasmanta",
     "poipole",
+    "poltchageist",
     "polteageist",
     "porygon",
     "porygon2",
@@ -4950,6 +4986,7 @@ floating_pokemon = [
     "scyther-f",
     "shedinja",
     "sigilyph",
+    "sinistcha",
     "sinistea",
     "skarmory",
     "skiploom",
@@ -5045,6 +5082,7 @@ floating_pokemon = [
     "vivillon-tundra",
     "volcarona",
     "wailord",
+    "wattrel",
     "weezing",
     "weezing-galar",
     "wingull",
