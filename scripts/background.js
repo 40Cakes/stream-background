@@ -114,6 +114,7 @@ function randomOrder() {
             if (sprite.classList.contains("sphealnone") || sprite.classList.contains("sphealsparkle")) {
                 document.querySelectorAll(".sphealnone, .sphealsparkle").forEach(spheal => {
                     spheal.style.marginTop = `${y}px`;
+                    spheal.style.marginLeft = `${x}px`;
                 });
             }
 
@@ -125,8 +126,9 @@ function randomOrder() {
             `;
 
             // Add sparkle images
-            if (sprite.classList.contains("sparkle") || sprite.classList.contains("wailordsparkle")) {
+            if (sprite.classList.contains("sparkle") || sprite.classList.contains("wailordsparkle") || sprite.classList.contains("sphealsparkle")) {
                 const offset = sprite.offsetWidth / 6;
+                
                 const sparkleSize = sprite.offsetWidth * 1.3;
                 const sparkleMaxSize = sprite.classList.contains("wailordsparkle") ? 1000 : 150;
 
