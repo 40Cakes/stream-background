@@ -49,9 +49,13 @@ pokemon = [{
 }, {
     "arceus": ["arceus", "arceus-bug", "arceus-dark", "arceus-dragon", "arceus-electric", "arceus-fairy", "arceus-fighting", "arceus-fire", "arceus-flying", "arceus-ghost", "arceus-grass", "arceus-ground", "arceus-ice", "arceus-poison", "arceus-psychic", "arceus-rock", "arceus-steel", "arceus-water"]
 }, {
+    "archaludon": ["archaludon"]
+}, {
     "archen": ["archen"]
 }, {
     "archeops": ["archeops"]
+}, {
+    "arctibax": ["arctibax"]
 }, {
     "arctovish": ["arctovish"]
 }, {
@@ -60,6 +64,8 @@ pokemon = [{
     "ariados": ["ariados"]
 }, {
     "armaldo": ["armaldo"]
+}, {
+    "armarouge": ["armarouge"]
 }, {
     "aromatisse": ["aromatisse"]
 }, {
@@ -100,6 +106,8 @@ pokemon = [{
     "basculin": ["basculin", "basculin-blue", "basculin-whitestriped"]
 }, {
     "bastiodon": ["bastiodon"]
+}, {
+    "baxcalibur": ["baxcalibur"]
 }, {
     "bayleef": ["bayleef"]
 }, {
@@ -146,6 +154,8 @@ pokemon = [{
     "boldore": ["boldore"]
 }, {
     "boltund": ["boltund"]
+}, {
+    "bombirdier": ["bombirdier"]
 }, {
     "bonsly": ["bonsly"]
 }, {
@@ -219,6 +229,8 @@ pokemon = [{
 }, {
     "centiskorch": ["centiskorch", "centiskorch-gigantamax"]
 }, {
+    "ceruledge": ["ceruledge"]
+}, {
     "cetitan": ["cetitan"]
 }, {
     "cetoddle": ["cetoddle"]
@@ -226,6 +238,8 @@ pokemon = [{
     "chandelure": ["chandelure"]
 }, {
     "chansey": ["chansey"]
+}, {
+    "charcadet": ["charcadet"]
 }, {
     "charizard": ["charizard", "charizard-gigantamax", "charizard-megax", "charizard-megay"]
 }, {
@@ -350,6 +364,8 @@ pokemon = [{
     "cyclizar": ["cyclizar"]
 }, {
     "cyndaquil": ["cyndaquil"]
+}, {
+    "dachsbun": ["dachsbun"]
 }, {
     "darkrai": ["darkrai"]
 }, {
@@ -541,6 +557,8 @@ pokemon = [{
 }, {
     "ferrothorn": ["ferrothorn"]
 }, {
+    "fidough": ["fidough"]
+}, {
     "finizen": ["finizen"]
 }, {
     "finneon": ["finneon", "finneon-f"]
@@ -579,6 +597,8 @@ pokemon = [{
 }, {
     "fraxure": ["fraxure"]
 }, {
+    "frigibax": ["frigibax"]
+}, {
     "frillish": ["frillish", "frillish-f"]
 }, {
     "froakie": ["froakie"]
@@ -606,6 +626,8 @@ pokemon = [{
     "garchomp": ["garchomp", "garchomp-mega"]
 }, {
     "gardevoir": ["gardevoir", "gardevoir-mega"]
+}, {
+    "garganacl": ["garganacl"]
 }, {
     "gastly": ["gastly"]
 }, {
@@ -961,6 +983,8 @@ pokemon = [{
 }, {
     "lycanroc": ["lycanroc", "lycanroc-dusk", "lycanroc-midnight"]
 }, {
+    "mabosstiff": ["mabosstiff"]
+}, {
     "machamp": ["machamp", "machamp-gigantamax"]
 }, {
     "machoke": ["machoke"]
@@ -1016,6 +1040,8 @@ pokemon = [{
     "marshadow": ["marshadow"]
 }, {
     "marshtomp": ["marshtomp"]
+}, {
+    "maschiff": ["maschiff"]
 }, {
     "masquerain": ["masquerain"]
 }, {
@@ -1110,6 +1136,10 @@ pokemon = [{
     "murkrow": ["murkrow", "murkrow-f"]
 }, {
     "musharna": ["musharna"]
+}, {
+    "nacli": ["nacli"]
+}, {
+    "naclstack": ["naclstack"]
 }, {
     "naganadel": ["naganadel"]
 }, {
@@ -1685,7 +1715,7 @@ pokemon = [{
 }, {
     "tatsugiri": ["tatsugiri", "tatsugiri-droopy", "tatsugiri-stretchy"]
 }, {
-    "tauros": ["tauros"]
+    "tauros": ["tauros", "tauros-paldeaaqua", "tauros-paldeablaze", "tauros-paldeacombat"]
 }, {
     "teddiursa": ["teddiursa"]
 }, {
@@ -4785,6 +4815,7 @@ floating_pokemon = [
     "beedrill",
     "beedrill-mega",
     "beheeyem",
+    "bombirdier",
     "braviary",
     "braviary-hisui",
     "butterfree",
