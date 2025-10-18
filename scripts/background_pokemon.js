@@ -639,9 +639,13 @@ pokemon = [{
 }, {
     "geodude": ["geodude", "geodude-alola"]
 }, {
+    "gholdengo": ["gholdengo"]
+}, {
     "gible": ["gible", "gible-f"]
 }, {
     "gigalith": ["gigalith"]
+}, {
+    "gimmighoul": ["gimmighoul", "gimmighoul-roaming"]
 }, {
     "girafarig": ["girafarig", "girafarig-f"]
 }, {
@@ -1923,7 +1927,7 @@ pokemon = [{
 }, {
     "wooloo": ["wooloo"]
 }, {
-    "wooper": ["wooper", "wooper-f", "wooper-paldea"]
+    "wooper": ["wooper", "wooper-paldea"]
 }, {
     "wormadam": ["wormadam", "wormadam-sandy", "wormadam-trash"]
 }, {
