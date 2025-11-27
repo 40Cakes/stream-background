@@ -283,7 +283,7 @@ pokemon = [{
 }, {
     "claydol": ["claydol"]
 }, {
-    "clefable": ["clefable"]
+    "clefable": ["clefable", "clefable-mega"]
 }, {
     "clefairy": ["clefairy"]
 }, {
@@ -435,7 +435,7 @@ pokemon = [{
 }, {
     "dragonair": ["dragonair"]
 }, {
-    "dragonite": ["dragonite"]
+    "dragonite": ["dragonite", "dragonite-mega"]
 }, {
     "drakloak": ["drakloak"]
 }, {
@@ -511,7 +511,7 @@ pokemon = [{
 }, {
     "elgyem": ["elgyem"]
 }, {
-    "emboar": ["emboar"]
+    "emboar": ["emboar", "emboar-mega"]
 }, {
     "emolga": ["emolga"]
 }, {
@@ -551,7 +551,7 @@ pokemon = [{
 }, {
     "fennekin": ["fennekin"]
 }, {
-    "feraligatr": ["feraligatr"]
+    "feraligatr": ["feraligatr", "feraligatr-mega"]
 }, {
     "ferroseed": ["ferroseed"]
 }, {
@@ -605,7 +605,7 @@ pokemon = [{
 }, {
     "frogadier": ["frogadier"]
 }, {
-    "froslass": ["froslass"]
+    "froslass": ["froslass", "froslass-mega"]
 }, {
     "frosmoth": ["frosmoth"]
 }, {
@@ -1059,7 +1059,7 @@ pokemon = [{
 }, {
     "meltan": ["meltan"]
 }, {
-    "meganium": ["meganium", "meganium-f"]
+    "meganium": ["meganium", "meganium-mega"]
 }, {
     "melmetal": ["melmetal", "melmetal-gigantamax"]
 }, {
@@ -1547,7 +1547,7 @@ pokemon = [{
 }, {
     "sizzlipede": ["sizzlipede"]
 }, {
-    "skarmory": ["skarmory"]
+    "skarmory": ["skarmory", "skarmory-mega"]
 }, {
     "skiddo": ["skiddo"]
 }, {
@@ -1647,7 +1647,7 @@ pokemon = [{
 }, {
     "starly": ["starly", "starly-f"]
 }, {
-    "starmie": ["starmie"]
+    "starmie": ["starmie", "starmie-mega"]
 }, {
     "staryu": ["staryu"]
 }, {
@@ -1859,7 +1859,7 @@ pokemon = [{
 }, {
     "victini": ["victini"]
 }, {
-    "victreebel": ["victreebel"]
+    "victreebel": ["victreebel", "victreebel-mega"]
 }, {
     "vigoroth": ["vigoroth"]
 }, {
@@ -4860,6 +4860,7 @@ floating_pokemon = [
     "dragalge",
     "dragapult",
     "dragonite",
+    "dragonite-mega",
     "drakloak",
     "drampa",
     "dreepy",
@@ -4896,6 +4897,7 @@ floating_pokemon = [
     "frillish",
     "frillish-f",
     "froslass",
+    "froslass-mega",
     "frosmoth",
     "gastly",
     "giratina-origin",
@@ -5024,6 +5026,7 @@ floating_pokemon = [
     "sinistcha",
     "sinistea",
     "skarmory",
+    "skarmory-mega",
     "skiploom",
     "solosis",
     "solrock",
@@ -5037,6 +5040,7 @@ floating_pokemon = [
     "staravia",
     "staravia-f",
     "starmie",
+    "starmie-mega",
     "staryu",
     "stratagem",
     "swablu",
