@@ -4837,6 +4837,7 @@ floating_pokemon = [
     "chimecho",
     "chingling",
     "claydol",
+    "clefable-mega",
     "cloyster",
     "cofagrigus",
     "combee",
@@ -5040,7 +5041,6 @@ floating_pokemon = [
     "staravia",
     "staravia-f",
     "starmie",
-    "starmie-mega",
     "staryu",
     "stratagem",
     "swablu",
@@ -5137,3 +5137,4 @@ floating_pokemon = [
     "zubat",
     "zubat-f"
 ]
+
