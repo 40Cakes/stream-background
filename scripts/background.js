@@ -9,7 +9,8 @@ const config = {
     fakemonOdds: 1 / 128, // Chance to add a single "fakemon" from Smogon's CAP - https://www.smogon.com/dex/ss/formats/cap/
     bigWailords: true, // BIG FUCKINF WAILORD
     sphealSpin: true, // Spinny boi
-    afd: true, // April Fools day sprite replacement
+    afd: true, // April Fools day sprite replacements
+    snowdot: true, // Add Snowdot to background during December
 };
 
 // Create background elements on load
@@ -45,6 +46,10 @@ function create() {
     let onscreenPokemon = "";
     const shuffledPokemon = shuffle(pokemon).slice(0, config.maxOnscreen);
 
+    if (config.snowdot && now.getMonth() == 11) { // December
+        shuffledPokemon.push({"snowdot": ["snowdot"]})
+    }
+    
     // Handle Fakemon
     if (Math.random() < config.fakemonOdds) {
         const shuffledFakemon = shuffle(fakemon);
