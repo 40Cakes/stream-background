@@ -179,6 +179,8 @@ pokemon = [{
 }, {
     "bronzor": ["bronzor"]
 }, {
+    "brutebonnet": ["brutebonnet"]
+}, {
     "bruxish": ["bruxish"]
 }, {
     "budew": ["budew"]
@@ -587,6 +589,8 @@ pokemon = [{
 }, {
     "florges": ["florges", "florges-blue", "florges-orange", "florges-white", "florges-yellow"]
 }, {
+    "fluttermane": ["fluttermane"]
+}, {
     "flygon": ["flygon"]
 }, {
     "fomantis": ["fomantis"]
@@ -708,6 +712,8 @@ pokemon = [{
     "grapploct": ["grapploct"]
 }, {
     "graveler": ["graveler", "graveler-alola"]
+}, {
+    "greattusk": ["greattusk"]
 }, {
     "greavard": ["greavard"]
 }, {
@@ -890,6 +896,8 @@ pokemon = [{
     "komala": ["komala"]
 }, {
     "kommo-o": ["kommo-o"]
+}, {
+    "koraidon": ["koraidon"]
 }, {
     "krabby": ["krabby"]
 }, {
@@ -1451,6 +1459,8 @@ pokemon = [{
 }, {
     "sandygast": ["sandygast"]
 }, {
+    "sandyshocks": ["sandyshocks"]
+}, {
     "sawk": ["sawk"]
 }, {
     "sawsbuck": ["sawsbuck", "sawsbuck-autumn", "sawsbuck-summer", "sawsbuck-winter"]
@@ -1470,6 +1480,8 @@ pokemon = [{
     "scrafty": ["scrafty"]
 }, {
     "scraggy": ["scraggy"]
+}, {
+    "screamtail": ["screamtail"]
 }, {
     "scyther": ["scyther", "scyther-f"]
 }, {
@@ -1570,6 +1582,8 @@ pokemon = [{
     "slakoth": ["slakoth"]
 }, {
     "sliggoo": ["sliggoo", "sliggoo-hisui"]
+}, {
+    "slitherwing": ["slitherwing"]
 }, {
     "slowbro": ["slowbro", "slowbro-galar", "slowbro-mega"]
 }, {
@@ -4893,6 +4907,7 @@ floating_pokemon = [
     "floette-orange",
     "floette-white",
     "floette-yellow",
+    "fluttermane",
     "flygon",
     "forretress",
     "frillish",
