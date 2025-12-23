@@ -703,6 +703,8 @@ pokemon = [{
 }, {
     "gothorita": ["gothorita"]
 }, {
+    "gougingfire": ["gougingfire"]
+}, {
     "gourgeist": ["gourgeist", "gourgeist-large", "gourgeist-small", "gourgeist-super"]
 }, {
     "grafaiai": ["grafaiai"]
@@ -1367,6 +1369,8 @@ pokemon = [{
 }, {
     "rabsca": ["rabsca"]
 }, {
+    "ragingbolt": ["ragingbolt"]
+}, {
     "raichu": ["raichu", "raichu-alola"]
 }, {
     "raikou": ["raikou"]
@@ -1900,6 +1904,8 @@ pokemon = [{
     "wailmer": ["wailmer"]
 }, {
     "wailord": ["wailord"]
+}, {
+    "walkingwake": ["walkingwake"]
 }, {
     "walrein": ["walrein"]
 }, {
