@@ -4913,6 +4913,7 @@ floating_pokemon = [
     "floette-orange",
     "floette-white",
     "floette-yellow",
+    "fluttermane",
     "flygon",
     "forretress",
     "frillish",
@@ -5157,3 +5158,4 @@ floating_pokemon = [
     "zubat",
     "zubat-f"
 ]
+
