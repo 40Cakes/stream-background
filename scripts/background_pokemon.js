@@ -1423,6 +1423,8 @@ pokemon = [{
 }, {
     "riolu": ["riolu"]
 }, {
+    "roaringmoon": ["roaringmoon"]
+}, {
     "rockruff": ["rockruff"]
 }, {
     "roggenrola": ["roggenrola"]
@@ -4842,6 +4844,8 @@ floating_pokemon = [
     "bombirdier",
     "braviary",
     "braviary-hisui",
+    "bronzong",
+    "bronzor",
     "butterfree",
     "butterfree-f",
     "butterfree-gigantamax",
@@ -4894,6 +4898,8 @@ floating_pokemon = [
     "dustox-f",
     "elgyem",
     "emolga",
+    "enamorus",
+    "enamorus-therian",
     "equilibra",
     "escavalier",
     "eternatus",
@@ -5033,6 +5039,7 @@ floating_pokemon = [
     "regieleki",
     "reuniclus",
     "ribombee",
+    "roaringmoon",
     "rotom",
     "rotom-fan",
     "rotom-frost",
