@@ -105,7 +105,7 @@ function randomOrder() {
         sprites.forEach((sprite) => {
             const x = Math.floor(Math.random() * (maxWidth - sprite.offsetWidth));
             let y = Math.floor(Math.random() * (maxHeight - sprite.offsetHeight - hBot - hTop)) + hTop;
-            let z = y;
+            let z = -sprite.offsetWidth*sprite.offsetHeight;
 
             // Special adjustments for classes
             if (sprite.classList.contains("wailordnone")) {
@@ -140,7 +140,7 @@ function randomOrder() {
                 sparklesHTML += `
                     <img style="--x-position: ${x + (sprite.classList.contains("wailordsparkle") ? offset : -offset)}px; 
                                  --y-position: ${y - offset}px; 
-                                 z-index: -1; width: ${sparkleSize}px; 
+                                 z-index: -99999; width: ${sparkleSize}px; 
                                  max-height: ${sparkleMaxSize}px; max-width: ${sparkleMaxSize}px;" 
                          src="./sprites/sparkles.gif" 
                          onerror="this.style.display='none'" 
