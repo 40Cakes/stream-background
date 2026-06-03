@@ -659,7 +659,7 @@ pokemon = [{
 }, {
     "glalie": ["glalie", "glalie-mega"]
 }, {
-    "glameow": ["glameow"] // "glameow-g6"
+    "glameow": ["glameow"] //"glameow-g6"
 }, {
     "glastrier": ["glastrier"]
 }, {
@@ -671,13 +671,13 @@ pokemon = [{
 }, {
     "gliscor": ["gliscor"]
 }, {
-    "gloom": ["gloom"] // "gloom-f"
+    "gloom": ["gloom"] //"gloom-f"
 }, {
     "gogoat": ["gogoat"]
 }, {
     "golbat": ["golbat", "golbat-f"]
 }, {
-    "goldeen": ["goldeen"] // "goldeen-f"
+    "goldeen": ["goldeen"] //"goldeen-f"
 }, {
     "golduck": ["golduck"]
 }, {
@@ -817,7 +817,7 @@ pokemon = [{
 }, {
     "hydreigon": ["hydreigon"]
 }, {
-    "hypno": ["hypno"] // "hypno-f"
+    "hypno": ["hypno"] //"hypno-f"
 }, {
     "igglybuff": ["igglybuff"]
 }, {
@@ -857,7 +857,7 @@ pokemon = [{
 }, {
     "kabutops": ["kabutops"]
 }, {
-    "kadabra": ["kadabra"] // "kadabra-f"
+    "kadabra": ["kadabra"] //"kadabra-f"
 }, {
     "kakuna": ["kakuna"]
 }, {
@@ -1871,7 +1871,7 @@ pokemon = [{
 }, {
     "venonat": ["venonat"]
 }, {
-    "venusaur": ["venusaur", "venusaur-mega"]// "venusaur-gmax"
+    "venusaur": ["venusaur", "venusaur-mega"]//"venusaur-gmax"
 }, {
     "vespiquen": ["vespiquen"]
 }, {
@@ -4858,7 +4858,7 @@ floating_pokemon = [
     "bronzor",
     "butterfree",
     "butterfree-f",
-    "butterfree-gigantamax",
+    "butterfree-gmax",
     "castform",
     "castform-rainy",
     "castform-snowy",
@@ -4878,7 +4878,7 @@ floating_pokemon = [
     "combee-f",
     "comfey",
     "corviknight",
-    "corviknight-gigantamax",
+    "corviknight-gmax",
     "corvisquire",
     "cosmoem",
     "cosmog",
@@ -4998,8 +4998,8 @@ floating_pokemon = [
     "minior-blue",
     "minior-green",
     "minior-indigo",
+    "minior-meteor",
     "minior-orange",
-    "minior-red",
     "minior-violet",
     "minior-yellow",
     "misdreavus",
@@ -5011,7 +5011,7 @@ floating_pokemon = [
     "musharna",
     "naganadel",
     "necrozma",
-    "necrozma-dawn-wings",
+    "necrozma-dawnwings",
     "necrozma-ultra",
     "necturna",
     "nihilego",
@@ -5032,7 +5032,9 @@ floating_pokemon = [
     "plasmanta",
     "poipole",
     "poltchageist",
+    "poltchageist-artisan",
     "polteageist",
+    "polteageist-antique",
     "porygon",
     "porygon2",
     "porygon-z",
@@ -5063,7 +5065,9 @@ floating_pokemon = [
     "shedinja",
     "sigilyph",
     "sinistcha",
+    "sinistcha-masterpiece",
     "sinistea",
+    "sinistea-antique",
     "skarmory",
     "skarmory-mega",
     "skiploom",
@@ -5103,33 +5107,33 @@ floating_pokemon = [
     "unfezant",
     "unfezant-f",
     "unown",
-    "unown-bravo",
-    "unown-charlie",
-    "unown-delta",
-    "unown-echo",
+    "unown-b",
+    "unown-c",
+    "unown-d",
+    "unown-e",
     "unown-exclamation",
-    "unown-foxtrot",
-    "unown-golf",
-    "unown-hotel",
-    "unown-india",
-    "unown-interrogation",
-    "unown-juliet",
-    "unown-kilo",
-    "unown-lima",
-    "unown-mike",
-    "unown-november",
-    "unown-oscar",
-    "unown-papa",
-    "unown-quebec",
-    "unown-romeo",
-    "unown-sierra",
-    "unown-tango",
-    "unown-uniform",
-    "unown-victor",
-    "unown-whiskey",
-    "unown-xray",
-    "unown-yankee",
-    "unown-zulu",
+    "unown-f",
+    "unown-g",
+    "unown-h",
+    "unown-i",
+    "unown-j",
+    "unown-k",
+    "unown-l",
+    "unown-m",
+    "unown-n",
+    "unown-o",
+    "unown-p",
+    "unown-q",
+    "unown-question",
+    "unown-r",
+    "unown-s",
+    "unown-t",
+    "unown-u",
+    "unown-v",
+    "unown-w",
+    "unown-x",
+    "unown-y",
+    "unown-z",
     "uxie",
     "vanillish",
     "vanilluxe",
@@ -5144,9 +5148,9 @@ floating_pokemon = [
     "vivillon-fancy",
     "vivillon-garden",
     "vivillon-highplains",
+    "vivillon-icysnow",
     "vivillon-jungle",
     "vivillon-marine",
-    "vivillon-meadow",
     "vivillon-modern",
     "vivillon-monsoon",
     "vivillon-ocean",
