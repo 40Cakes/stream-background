@@ -1,5 +1,5 @@
 pokemon = [{
-    "abomasnow": ["abomasnow", "abomasnow-mega"]
+    "abomasnow": ["abomasnow", "abomasnow-f", "abomasnow-mega"]
 }, {
     "abra": ["abra"]
 }, {
@@ -17,7 +17,7 @@ pokemon = [{
 }, {
     "alakazam": ["alakazam", "alakazam-mega"]
 }, {
-    "alcremie": ["alcremie", "alcremie-caramel-swirl", "alcremie-gigantamax", "alcremie-lemon-cream", "alcremie-matcha-cream", "alcremie-mint-cream", "alcremie-rainbow-swirl", "alcremie-ruby-cream", "alcremie-ruby-swirl", "alcremie-salted-cream", "alcremie-vanilla-cream-berry", "alcremie-vanilla-cream-clover", "alcremie-vanilla-cream-flower", "alcremie-vanilla-cream-love", "alcremie-vanilla-cream-ribbon", "alcremie-vanilla-cream-star"]
+    "alcremie": ["alcremie","alcremie-caramelswirl","alcremie-caramelswirl-berry","alcremie-caramelswirl-clover","alcremie-caramelswirl-flower","alcremie-caramelswirl-love","alcremie-caramelswirl-ribbon","alcremie-caramelswirl-star","alcremie-gmax","alcremie-lemoncream","alcremie-lemoncream-berry","alcremie-lemoncream-clover","alcremie-lemoncream-flower","alcremie-lemoncream-love","alcremie-lemoncream-ribbon","alcremie-lemoncream-star","alcremie-matchacream","alcremie-matchacream-berry","alcremie-matchacream-clover","alcremie-matchacream-flower","alcremie-matchacream-love","alcremie-matchacream-ribbon","alcremie-matchacream-star","alcremie-mintcream","alcremie-mintcream-berry","alcremie-mintcream-clover","alcremie-mintcream-flower","alcremie-mintcream-love","alcremie-mintcream-ribbon","alcremie-mintcream-star","alcremie-rainbowswirl-berry","alcremie-rainbowswirl-clover","alcremie-rainbowswirl-flower","alcremie-rainbowswirl-love","alcremie-rainbowswirl-ribbon","alcremie-rainbowswirl-star","alcremie-rubycream","alcremie-rubycream-berry","alcremie-rubycream-clover","alcremie-rubycream-flower","alcremie-rubycream-love","alcremie-rubycream-ribbon","alcremie-rubycream-star","alcremie-rubyswirl-berry","alcremie-rubyswirl-clover","alcremie-rubyswirl-flower","alcremie-rubyswirl-love","alcremie-rubyswirl-ribbon","alcremie-rubyswirl-star","alcremie-saltedcream","alcremie-saltedcream-berry","alcremie-saltedcream-clover","alcremie-saltedcream-flower","alcremie-saltedcream-love","alcremie-saltedcream-ribbon","alcremie-saltedcream-star","alcremie-vanillacream-berry","alcremie-vanillacream-clover","alcremie-vanillacream-flower","alcremie-vanillacream-love","alcremie-vanillacream-ribbon","alcremie-vanillacream-star"]
 }, {
     "alomomola": ["alomomola"]
 }, {
@@ -103,7 +103,7 @@ pokemon = [{
 }, {
     "basculegion": ["basculegion", "basculegion-f"]
 }, {
-    "basculin": ["basculin", "basculin-blue", "basculin-whitestriped"]
+    "basculin": ["basculin", "basculin-bluestriped", "basculin-whitestriped"]
 }, {
     "bastiodon": ["bastiodon"]
 }, {
@@ -141,9 +141,9 @@ pokemon = [{
 }, {
     "blacephalon": ["blacephalon"]
 }, {
-    "blastoise": ["blastoise", "blastoise-mega", "blastoise-gigantamax"]
+    "blastoise": ["blastoise", "blastoise-mega"] //"blastoise-gmax"
 }, {
-    "blaziken": ["blaziken", "blaziken-mega"]
+    "blaziken": ["blaziken", "blaziken-f", "blaziken-mega"]
 }, {
     "blipbug": ["blipbug"]
 }, {
@@ -195,7 +195,7 @@ pokemon = [{
 }, {
     "burmy": ["burmy", "burmy-sandy", "burmy-trash"]
 }, {
-    "butterfree": ["butterfree", "butterfree-gigantamax"]
+    "butterfree": ["butterfree", "butterfree-gmax"]
 }, {
     "buzzwole": ["buzzwole"]
 }, {
@@ -205,7 +205,7 @@ pokemon = [{
 }, {
     "calyrex": ["calyrex", "calyrex-ice", "calyrex-shadow"]
 }, {
-    "camerupt": ["camerupt", "camerupt-mega"]
+    "camerupt": ["camerupt", "camerupt-f", "camerupt-mega"]
 }, {
     "capsakid": ["capsakid"]
 }, {
@@ -229,7 +229,7 @@ pokemon = [{
 }, {
     "celesteela": ["celesteela"]
 }, {
-    "centiskorch": ["centiskorch", "centiskorch-gigantamax"]
+    "centiskorch": ["centiskorch", "centiskorch-gmax"]
 }, {
     "ceruledge": ["ceruledge"]
 }, {
@@ -243,7 +243,7 @@ pokemon = [{
 }, {
     "charcadet": ["charcadet"]
 }, {
-    "charizard": ["charizard", "charizard-gigantamax", "charizard-megax", "charizard-megay"]
+    "charizard": ["charizard", "charizard-gmax", "charizard-megax", "charizard-megay"]
 }, {
     "charjabug": ["charjabug"]
 }, {
@@ -275,7 +275,7 @@ pokemon = [{
 }, {
     "cinccino": ["cinccino"]
 }, {
-    "cinderace": ["cinderace", "cinderace-gigantamax"]
+    "cinderace": ["cinderace"] //"cinderace-gmax"
 }, {
     "clamperl": ["clamperl"]
 }, {
@@ -297,7 +297,7 @@ pokemon = [{
 }, {
     "cloyster": ["cloyster"]
 }, {
-    "coalossal": ["coalossal", "coalossal-gigantamax"]
+    "coalossal": ["coalossal", "coalossal-gmax"]
 }, {
     "cobalion": ["cobalion"]
 }, {
@@ -311,13 +311,13 @@ pokemon = [{
 }, {
     "conkeldurr": ["conkeldurr"]
 }, {
-    "copperajah": ["copperajah", "copperajah-gigantamax"]
+    "copperajah": ["copperajah", "copperajah-gmax"]
 }, {
     "corphish": ["corphish"]
 }, {
     "corsola": ["corsola", "corsola-galar"]
 }, {
-    "corviknight": ["corviknight", "corviknight-gigantamax"]
+    "corviknight": ["corviknight", "corviknight-gmax"]
 }, {
     "corvisquire": ["corvisquire"]
 }, {
@@ -413,9 +413,9 @@ pokemon = [{
 }, {
     "ditto": ["ditto"]
 }, {
-    "dodrio": ["dodrio", "dodrio-f"]
+    "dodrio": ["dodrio"] //"dodrio-f"
 }, {
-    "doduo": ["doduo", "doduo-f"]
+    "doduo": ["doduo"] //"doduo-f"
 }, {
     "dolliv": ["dolliv"]
 }, {
@@ -447,7 +447,7 @@ pokemon = [{
 }, {
     "dratini": ["dratini"]
 }, {
-    "drednaw": ["drednaw", "drednaw-gigantamax"]
+    "drednaw": ["drednaw", "drednaw-gmax"]
 }, {
     "dreepy": ["dreepy"]
 }, {
@@ -467,15 +467,15 @@ pokemon = [{
 }, {
     "ducklett": ["ducklett"]
 }, {
-    "dugtrio": ["dugtrio", "dugtrio-alola"]
-}, {
     "dudunsparce": ["dudunsparce", "dudunsparce-threesegment"]
+}, {
+    "dugtrio": ["dugtrio", "dugtrio-alola"]
 }, {
     "dunsparce": ["dunsparce"]
 }, {
     "duosion": ["duosion"]
 }, {
-    "duraludon": ["duraludon", "duraludon-gigantamax"]
+    "duraludon": ["duraludon", "duraludon-gmax"]
 }, {
     "durant": ["durant"]
 }, {
@@ -493,9 +493,9 @@ pokemon = [{
 }, {
     "eelektross": ["eelektross"]
 }, {
-    "eevee": ["eevee", "eevee-gigantamax"]
+    "eevee": ["eevee", "eevee-gmax", "eevee-starter"]
 }, {
-    "eiscue": ["eiscue", "eiscue-noice-face"]
+    "eiscue": ["eiscue", "eiscue-noice"]
 }, {
     "ekans": ["ekans"]
 }, {
@@ -569,9 +569,9 @@ pokemon = [{
 }, {
     "flabebe": ["flabebe", "flabebe-blue", "flabebe-orange", "flabebe-white", "flabebe-yellow"]
 }, {
-    "flapple": ["flapple", "flapple-gigantamax"]
-}, {
     "flamigo": ["flamigo"]
+}, {
+    "flapple": ["flapple", "flapple-gmax"]
 }, {
     "flareon": ["flareon"]
 }, {
@@ -625,9 +625,9 @@ pokemon = [{
 }, {
     "galvantula": ["galvantula"]
 }, {
-    "garbodor": ["garbodor", "garbodor-gigantamax"]
+    "garbodor": ["garbodor", "garbodor-gmax"]
 }, {
-    "garchomp": ["garchomp", "garchomp-mega"]
+    "garchomp": ["garchomp", "garchomp-f", "garchomp-mega"]
 }, {
     "gardevoir": ["gardevoir", "gardevoir-mega"]
 }, {
@@ -637,9 +637,9 @@ pokemon = [{
 }, {
     "gastrodon": ["gastrodon", "gastrodon-east"]
 }, {
-    "genesect": ["genesect", "genesect-electric", "genesect-fire", "genesect-ice", "genesect-water"]
+    "genesect": ["genesect", "genesect-burn", "genesect-chill", "genesect-douse", "genesect-shock"]
 }, {
-    "gengar": ["gengar", "gengar-gigantamax", "gengar-mega"]
+    "gengar": ["gengar", "gengar-gmax", "gengar-mega"]
 }, {
     "geodude": ["geodude", "geodude-alola"]
 }, {
@@ -659,7 +659,7 @@ pokemon = [{
 }, {
     "glalie": ["glalie", "glalie-mega"]
 }, {
-    "glameow": ["glameow", "glameow-g6"]
+    "glameow": ["glameow"] // "glameow-g6"
 }, {
     "glastrier": ["glastrier"]
 }, {
@@ -671,13 +671,13 @@ pokemon = [{
 }, {
     "gliscor": ["gliscor"]
 }, {
-    "gloom": ["gloom", "gloom-f"]
+    "gloom": ["gloom"] // "gloom-f"
 }, {
     "gogoat": ["gogoat"]
 }, {
     "golbat": ["golbat", "golbat-f"]
 }, {
-    "goldeen": ["goldeen", "goldeen-f"]
+    "goldeen": ["goldeen"] // "goldeen-f"
 }, {
     "golduck": ["golduck"]
 }, {
@@ -721,11 +721,11 @@ pokemon = [{
 }, {
     "greedent": ["greedent"]
 }, {
-    "greninja": ["greninja", "greninja-active"]
+    "greninja": ["greninja", "greninja-ash"]
 }, {
     "grimer": ["grimer", "grimer-alola"]
 }, {
-    "grimmsnarl": ["grimmsnarl", "grimmsnarl-gigantamax"]
+    "grimmsnarl": ["grimmsnarl", "grimmsnarl-gmax"]
 }, {
     "grookey": ["grookey"]
 }, {
@@ -751,7 +751,7 @@ pokemon = [{
 }, {
     "gyarados": ["gyarados", "gyarados-mega"]
 }, {
-    "hakamo-o": ["hakamo-o"]
+    "hakamo-o": ["hakamoo"]
 }, {
     "happiny": ["happiny"]
 }, {
@@ -759,7 +759,7 @@ pokemon = [{
 }, {
     "hatenna": ["hatenna"]
 }, {
-    "hatterene": ["hatterene", "hatterene-gigantamax"]
+    "hatterene": ["hatterene", "hatterene-gmax"]
 }, {
     "hattrem": ["hattrem"]
 }, {
@@ -777,7 +777,7 @@ pokemon = [{
 }, {
     "helioptile": ["helioptile"]
 }, {
-    "heracross": ["heracross", "heracross-mega"]
+    "heracross": ["heracross", "heracross-f", "heracross-mega"]
 }, {
     "herdier": ["herdier"]
 }, {
@@ -791,11 +791,11 @@ pokemon = [{
 }, {
     "hitmontop": ["hitmontop"]
 }, {
-    "ho-oh": ["ho-oh"]
-}, {
     "honchkrow": ["honchkrow"]
 }, {
     "honedge": ["honedge"]
+}, {
+    "ho-oh": ["hooh"]
 }, {
     "hoopa": ["hoopa", "hoopa-unbound"]
 }, {
@@ -805,7 +805,7 @@ pokemon = [{
 }, {
     "horsea": ["horsea"]
 }, {
-    "houndoom": ["houndoom", "houndoom-mega"]
+    "houndoom": ["houndoom", "houndoom-f", "houndoom-mega"]
 }, {
     "houndour": ["houndour"]
 }, {
@@ -817,7 +817,7 @@ pokemon = [{
 }, {
     "hydreigon": ["hydreigon"]
 }, {
-    "hypno": ["hypno", "hypno-f"]
+    "hypno": ["hypno"] // "hypno-f"
 }, {
     "igglybuff": ["igglybuff"]
 }, {
@@ -833,11 +833,11 @@ pokemon = [{
 }, {
     "inkay": ["inkay"]
 }, {
-    "inteleon": ["inteleon", "inteleon-gigantamax"]
+    "inteleon": ["inteleon", "inteleon-gmax"]
 }, {
     "ivysaur": ["ivysaur"]
 }, {
-    "jangmo-o": ["jangmo-o"]
+    "jangmo-o": ["jangmoo"]
 }, {
     "jellicent": ["jellicent", "jellicent-f"]
 }, {
@@ -857,7 +857,7 @@ pokemon = [{
 }, {
     "kabutops": ["kabutops"]
 }, {
-    "kadabra": ["kadabra", "kadabra-f"]
+    "kadabra": ["kadabra"] // "kadabra-f"
 }, {
     "kakuna": ["kakuna"]
 }, {
@@ -873,11 +873,11 @@ pokemon = [{
 }, {
     "kilowattrel": ["kilowattrel"]
 }, {
-    "kingdra": ["kingdra"]
-}, {
     "kingambit": ["kingambit"]
 }, {
-    "kingler": ["kingler", "kingler-gigantamax"]
+    "kingdra": ["kingdra"]
+}, {
+    "kingler": ["kingler", "kingler-gmax"]
 }, {
     "kirlia": ["kirlia"]
 }, {
@@ -897,7 +897,7 @@ pokemon = [{
 }, {
     "komala": ["komala"]
 }, {
-    "kommo-o": ["kommo-o"]
+    "kommo-o": ["kommoo"]
 }, {
     "koraidon": ["koraidon"]
 }, {
@@ -915,7 +915,7 @@ pokemon = [{
 }, {
     "kyogre": ["kyogre", "kyogre-primal"]
 }, {
-    "kyurem": ["kyurem", "kyurem-black-overdrive", "kyurem-black", "kyurem-white-overdrive", "kyurem-white"]
+    "kyurem": ["kyurem", "kyurem-black", "kyurem-white"] // white-overdrive, black-overdrive
 }, {
     "lairon": ["lairon"]
 }, {
@@ -925,7 +925,7 @@ pokemon = [{
 }, {
     "lanturn": ["lanturn"]
 }, {
-    "lapras": ["lapras", "lapras-gigantamax"]
+    "lapras": ["lapras", "lapras-gmax"]
 }, {
     "larvesta": ["larvesta"]
 }, {
@@ -999,7 +999,7 @@ pokemon = [{
 }, {
     "mabosstiff": ["mabosstiff"]
 }, {
-    "machamp": ["machamp", "machamp-gigantamax"]
+    "machamp": ["machamp", "machamp-gmax"]
 }, {
     "machoke": ["machoke"]
 }, {
@@ -1063,23 +1063,23 @@ pokemon = [{
 }, {
     "mawile": ["mawile", "mawile-mega"]
 }, {
-    "medicham": ["medicham", "medicham-mega"]
+    "medicham": ["medicham", "medicham-f", "medicham-mega"]
 }, {
     "meditite": ["meditite", "meditite-f"]
 }, {
-    "meltan": ["meltan"]
+    "meganium": ["meganium", "meganium-f", "meganium-mega"]
 }, {
-    "meganium": ["meganium", "meganium-mega"]
-}, {
-    "melmetal": ["melmetal", "melmetal-gigantamax"]
+    "melmetal": ["melmetal", "melmetal-gmax"]
 }, {
     "meloetta": ["meloetta", "meloetta-pirouette"]
+}, {
+    "meltan": ["meltan"]
 }, {
     "meowscarada": ["meowscarada"]
 }, {
     "meowstic": ["meowstic", "meowstic-f"]
 }, {
-    "meowth": ["meowth", "meowth-alola", "meowth-galar", "meowth-gigantamax"]
+    "meowth": ["meowth", "meowth-alola", "meowth-galar", "meowth-gmax"]
 }, {
     "mesprit": ["mesprit"]
 }, {
@@ -1105,13 +1105,13 @@ pokemon = [{
 }, {
     "miltank": ["miltank"]
 }, {
-    "mime_jr": ["mime_jr"]
+    "mime_jr": ["mimejr"]
 }, {
     "mimikyu": ["mimikyu", "mimikyu-busted"]
 }, {
     "minccino": ["minccino"]
 }, {
-    "minior": ["minior", "minior-blue", "minior-green", "minior-indigo", "minior-orange", "minior-red", "minior-violet", "minior-yellow"]
+    "minior": ["minior", "minior-blue", "minior-green", "minior-indigo", "minior-meteor", "minior-orange", "minior-violet", "minior-yellow"]
 }, {
     "minun": ["minun"]
 }, {
@@ -1127,13 +1127,13 @@ pokemon = [{
 }, {
     "morgrem": ["morgrem"]
 }, {
-    "morpeko": ["morpeko", "morpeko-hangry-mode"]
+    "morpeko": ["morpeko", "morpeko-hangry"]
 }, {
     "mothim": ["mothim"]
 }, {
-    "mr-mime": ["mr-mime", "mr-mime-galar"]
+    "mr-mime": ["mrmime", "mrmime-galar"]
 }, {
-    "mr-rime": ["mr-rime"]
+    "mr-rime": ["mrrime"]
 }, {
     "mudbray": ["mudbray"]
 }, {
@@ -1167,9 +1167,9 @@ pokemon = [{
 }, {
     "nidoqueen": ["nidoqueen"]
 }, {
-    "nidoran_f": ["nidoran_f"]
+    "nidoran_f": ["nidoranf"]
 }, {
-    "nidoran_m": ["nidoran_m"]
+    "nidoran_m": ["nidoranm"]
 }, {
     "nidorina": ["nidorina"]
 }, {
@@ -1213,7 +1213,7 @@ pokemon = [{
 }, {
     "oranguru": ["oranguru"]
 }, {
-    "orbeetle": ["orbeetle", "orbeetle-gigantamax"]
+    "orbeetle": ["orbeetle", "orbeetle-gmax"]
 }, {
     "oricorio": ["oricorio", "oricorio-pau", "oricorio-pompom", "oricorio-sensu"]
 }, {
@@ -1287,7 +1287,7 @@ pokemon = [{
 }, {
     "pignite": ["pignite"]
 }, {
-    "pikachu": ["pikachu", "pikachu-belle", "pikachu-cosplay", "pikachu-gigantamax", "pikachu-libre", "pikachu-phd", "pikachu-popstar", "pikachu-rockstar"]
+    "pikachu": ["pikachu", "pikachu-alola", "pikachu-belle", "pikachu-cosplay", "pikachu-f", "pikachu-gmax", "pikachu-hoenn", "pikachu-kalos", "pikachu-libre", "pikachu-original", "pikachu-partner", "pikachu-phd", "pikachu-popstar", "pikachu-rockstar", "pikachu-sinnoh", "pikachu-starter", "pikachu-starter-f", "pikachu-unova"]
 }, {
     "pikipek": ["pikipek"]
 }, {
@@ -1313,9 +1313,9 @@ pokemon = [{
 }, {
     "poliwrath": ["poliwrath"]
 }, {
-    "poltchageist": ["poltchageist"]
+    "poltchageist": ["poltchageist", "poltchageist-artisan"]
 }, {
-    "polteageist": ["polteageist"]
+    "polteageist": ["polteageist", "polteageist-antique"]
 }, {
     "ponyta": ["ponyta", "ponyta-galar"]
 }, {
@@ -1325,9 +1325,9 @@ pokemon = [{
 }, {
     "porygon": ["porygon"]
 }, {
-    "porygon-z": ["porygon-z"]
-}, {
     "porygon2": ["porygon2"]
+}, {
+    "porygon-z": ["porygonz"]
 }, {
     "primarina": ["primarina"]
 }, {
@@ -1381,7 +1381,7 @@ pokemon = [{
 }, {
     "rapidash": ["rapidash", "rapidash-galar"]
 }, {
-    "raticate": ["raticate", "raticate-alola"]
+    "raticate": ["raticate", "raticate-alola", "raticate-f"]
 }, {
     "rattata": ["rattata", "rattata-alola"]
 }, {
@@ -1413,13 +1413,13 @@ pokemon = [{
 }, {
     "rhydon": ["rhydon", "rhydon-f"]
 }, {
-    "rhyhorn": ["rhyhorn", "rhyhorn-f"]
+    "rhyhorn": ["rhyhorn"] //"rhyhorn-f"
 }, {
     "rhyperior": ["rhyperior", "rhyperior-f"]
 }, {
     "ribombee": ["ribombee"]
 }, {
-    "rillaboom": ["rillaboom", "rillaboom-gigantamax"]
+    "rillaboom": ["rillaboom"] //"rillaboom-gigantamax"
 }, {
     "riolu": ["riolu"]
 }, {
@@ -1455,7 +1455,7 @@ pokemon = [{
 }, {
     "samurott": ["samurott", "samurott-hisui"]
 }, {
-    "sandaconda": ["sandaconda", "sandaconda-gigantamax"]
+    "sandaconda": ["sandaconda", "sandaconda-gmax"]
 }, {
     "sandile": ["sandile"]
 }, {
@@ -1475,7 +1475,7 @@ pokemon = [{
 }, {
     "sceptile": ["sceptile", "sceptile-mega"]
 }, {
-    "scizor": ["scizor", "scizor-mega"]
+    "scizor": ["scizor", "scizor-f", "scizor-mega"]
 }, {
     "scolipede": ["scolipede"]
 }, {
@@ -1493,7 +1493,7 @@ pokemon = [{
 }, {
     "seadra": ["seadra"]
 }, {
-    "seaking": ["seaking", "seaking-f"]
+    "seaking": ["seaking"] //"seaking-f"
 }, {
     "sealeo": ["sealeo"]
 }, {
@@ -1557,9 +1557,9 @@ pokemon = [{
 }, {
     "simisear": ["simisear"]
 }, {
-    "sinistcha": ["sinistcha"]
+    "sinistcha": ["sinistcha", "sinistcha-masterpiece"]
 }, {
-    "sinistea": ["sinistea"]
+    "sinistea": ["sinistea", "sinistea-antique"]
 }, {
     "sirfetchd": ["sirfetchd"]
 }, {
@@ -1567,13 +1567,13 @@ pokemon = [{
 }, {
     "skarmory": ["skarmory", "skarmory-mega"]
 }, {
+    "skeledirge": ["skeledirge"]
+}, {
     "skiddo": ["skiddo"]
 }, {
     "skiploom": ["skiploom"]
 }, {
     "skitty": ["skitty"]
-}, {
-    "skeledirge": ["skeledirge"]
 }, {
     "skorupi": ["skorupi"]
 }, {
@@ -1615,7 +1615,7 @@ pokemon = [{
 }, {
     "snom": ["snom"]
 }, {
-    "snorlax": ["snorlax", "snorlax-gigantamax"]
+    "snorlax": ["snorlax", "snorlax-gmax"]
 }, {
     "snorunt": ["snorunt"]
 }, {
@@ -1633,11 +1633,11 @@ pokemon = [{
 }, {
     "spearow": ["spearow"]
 }, {
+    "spectrier": ["spectrier"]
+}, {
     "spewpa": ["spewpa"]
 }, {
     "spheal": ["spheal"]
-}, {
-    "spectrier": ["spectrier"]
 }, {
     "spidops": ["spidops"]
 }, {
@@ -1671,7 +1671,7 @@ pokemon = [{
 }, {
     "staryu": ["staryu"]
 }, {
-    "steelix": ["steelix", "steelix-mega"]
+    "steelix": ["steelix", "steelix-f", "steelix-mega"]
 }, {
     "steenee": ["steenee"]
 }, {
@@ -1801,7 +1801,7 @@ pokemon = [{
 }, {
     "toxicroak": ["toxicroak", "toxicroak-f"]
 }, {
-    "toxtricity": ["toxtricity", "toxtricity-gigantamax", "toxtricity-low-key"]
+    "toxtricity": ["toxtricity", "toxtricity-gmax", "toxtricity-lowkey"]
 }, {
     "tranquill": ["tranquill"]
 }, {
@@ -1843,13 +1843,13 @@ pokemon = [{
 }, {
     "unfezant": ["unfezant", "unfezant-f"]
 }, {
-    "unown": ["unown", "unown-bravo", "unown-charlie", "unown-delta", "unown-echo", "unown-exclamation", "unown-foxtrot", "unown-golf", "unown-hotel", "unown-india", "unown-interrogation", "unown-juliet", "unown-kilo", "unown-lima", "unown-mike", "unown-november", "unown-oscar", "unown-papa", "unown-quebec", "unown-romeo", "unown-sierra", "unown-tango", "unown-uniform", "unown-victor", "unown-whiskey", "unown-xray", "unown-yankee", "unown-zulu"]
+    "unown": ["unown", "unown-b", "unown-c", "unown-d", "unown-e", "unown-exclamation", "unown-f", "unown-g", "unown-h", "unown-i", "unown-j", "unown-k", "unown-l", "unown-m", "unown-n", "unown-o", "unown-p", "unown-q", "unown-question", "unown-r", "unown-s", "unown-t", "unown-u", "unown-v", "unown-w", "unown-x", "unown-y", "unown-z"]
 }, {
     "ursaluna": ["ursaluna", "ursaluna-bloodmoon"]
 }, {
     "ursaring": ["ursaring", "ursaring-f"]
 }, {
-    "urshifu": ["urshifu", "urshifu-gigantamax", "urshifu-rapid-strike-gigantamax", "urshifu-rapid-strike"]
+    "urshifu": ["urshifu", "urshifu-rapidstrike"] //"urshifu-gmax", "urshifu-rapidstrike-gmax"
 }, {
     "uxie": ["uxie"]
 }, {
@@ -1871,7 +1871,7 @@ pokemon = [{
 }, {
     "venonat": ["venonat"]
 }, {
-    "venusaur": ["venusaur", "venusaur-gigantamax", "venusaur-mega"]
+    "venusaur": ["venusaur", "venusaur-mega"]// "venusaur-gmax"
 }, {
     "vespiquen": ["vespiquen"]
 }, {
@@ -1885,11 +1885,11 @@ pokemon = [{
 }, {
     "vikavolt": ["vikavolt"]
 }, {
-    "vileplume": ["vileplume", "vileplume-f"]
+    "vileplume": ["vileplume"] //"vileplume-f"
 }, {
     "virizion": ["virizion"]
 }, {
-    "vivillon": ["vivillon", "vivillon-archipelago", "vivillon-continental", "vivillon-elegant", "vivillon-fancy", "vivillon-garden", "vivillon-highplains", "vivillon-jungle", "vivillon-marine", "vivillon-meadow", "vivillon-modern", "vivillon-monsoon", "vivillon-ocean", "vivillon-pokeball", "vivillon-polar", "vivillon-river", "vivillon-sandstorm", "vivillon-savannah", "vivillon-sun", "vivillon-tundra"]
+    "vivillon": ["vivillon", "vivillon-archipelago", "vivillon-continental", "vivillon-elegant", "vivillon-fancy", "vivillon-garden", "vivillon-highplains", "vivillon-icysnow", "vivillon-jungle", "vivillon-marine", "vivillon-modern", "vivillon-monsoon", "vivillon-ocean", "vivillon-pokeball", "vivillon-polar", "vivillon-river", "vivillon-sandstorm", "vivillon-savannah", "vivillon-sun", "vivillon-tundra"]
 }, {
     "volbeat": ["volbeat"]
 }, {
@@ -1949,7 +1949,7 @@ pokemon = [{
 }, {
     "wooloo": ["wooloo"]
 }, {
-    "wooper": ["wooper", "wooper-paldea"]
+    "wooper": ["wooper", "wooper-f", "wooper-paldea"]
 }, {
     "wormadam": ["wormadam", "wormadam-sandy", "wormadam-trash"]
 }, {
@@ -1963,7 +1963,7 @@ pokemon = [{
 }, {
     "xatu": ["xatu", "xatu-f"]
 }, {
-    "xerneas": ["xerneas", "xerneas-active"]
+    "xerneas": ["xerneas", "xerneas-neutral"]
 }, {
     "xurkitree": ["xurkitree"]
 }, {
@@ -1979,9 +1979,9 @@ pokemon = [{
 }, {
     "yveltal": ["yveltal"]
 }, {
-    "zacian": ["zacian", "zacian-crowned-sword"]
+    "zacian": ["zacian", "zacian-crowned"]
 }, {
-    "zamazenta": ["zamazenta", "zamazenta-crowned-shield"]
+    "zamazenta": ["zamazenta", "zamazenta-crowned"]
 }, {
     "zangoose": ["zangoose"]
 }, {
@@ -1993,7 +1993,7 @@ pokemon = [{
 }, {
     "zekrom": ["zekrom"]
 }, {
-    "zeraora": ["zeraora", "zeraora-stand"]
+    "zeraora": ["zeraora"] //"zeraora-stand"
 }, {
     "zigzagoon": ["zigzagoon", "zigzagoon-galar"]
 }, {
@@ -2012,6 +2012,12 @@ fakemon = [{
     "astrolotl": ["astrolotl"]
 }, {
     "aurumoth": ["aurumoth"]
+}, {
+    "caribolt": ["caribolt"]
+}, {
+    "cawmodore": ["cawmodore"]
+}, {
+    "chomera": ["chomera"]
 }, {
     "colossoil": ["colossoil", "colossoil-f"]
 }, {
@@ -2039,6 +2045,8 @@ fakemon = [{
 }, {
     "mumbao": ["mumbao"]
 }, {
+    "naviathan": ["naviathan"]
+}, {
     "necturna": ["necturna"]
 }, {
     "pajantom": ["pajantom"]
@@ -2058,6 +2066,8 @@ fakemon = [{
     "smoguana": ["smoguana"]
 }, {
     "smokomodo": ["smokomodo"]
+}, {
+    "snaelstrom": ["snaelstrom"]
 }, {
     "stratagem": ["stratagem"]
 }, {
