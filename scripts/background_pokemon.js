@@ -1,4 +1,4 @@
-pokemon = [{
+const pokemon = [{
     "abomasnow": ["abomasnow", "abomasnow-f", "abomasnow-mega"]
 }, {
     "abra": ["abra"]
@@ -15,7 +15,7 @@ pokemon = [{
 }, {
     "aipom": ["aipom", "aipom-f"]
 }, {
-    "alakazam": ["alakazam", "alakazam-mega"]
+    "alakazam": ["alakazam", "alakazam-f", "alakazam-mega"]
 }, {
     "alcremie": ["alcremie","alcremie-caramelswirl","alcremie-caramelswirl-berry","alcremie-caramelswirl-clover","alcremie-caramelswirl-flower","alcremie-caramelswirl-love","alcremie-caramelswirl-ribbon","alcremie-caramelswirl-star","alcremie-gmax","alcremie-lemoncream","alcremie-lemoncream-berry","alcremie-lemoncream-clover","alcremie-lemoncream-flower","alcremie-lemoncream-love","alcremie-lemoncream-ribbon","alcremie-lemoncream-star","alcremie-matchacream","alcremie-matchacream-berry","alcremie-matchacream-clover","alcremie-matchacream-flower","alcremie-matchacream-love","alcremie-matchacream-ribbon","alcremie-matchacream-star","alcremie-mintcream","alcremie-mintcream-berry","alcremie-mintcream-clover","alcremie-mintcream-flower","alcremie-mintcream-love","alcremie-mintcream-ribbon","alcremie-mintcream-star","alcremie-rainbowswirl-berry","alcremie-rainbowswirl-clover","alcremie-rainbowswirl-flower","alcremie-rainbowswirl-love","alcremie-rainbowswirl-ribbon","alcremie-rainbowswirl-star","alcremie-rubycream","alcremie-rubycream-berry","alcremie-rubycream-clover","alcremie-rubycream-flower","alcremie-rubycream-love","alcremie-rubycream-ribbon","alcremie-rubycream-star","alcremie-rubyswirl-berry","alcremie-rubyswirl-clover","alcremie-rubyswirl-flower","alcremie-rubyswirl-love","alcremie-rubyswirl-ribbon","alcremie-rubyswirl-star","alcremie-saltedcream","alcremie-saltedcream-berry","alcremie-saltedcream-clover","alcremie-saltedcream-flower","alcremie-saltedcream-love","alcremie-saltedcream-ribbon","alcremie-saltedcream-star","alcremie-vanillacream-berry","alcremie-vanillacream-clover","alcremie-vanillacream-flower","alcremie-vanillacream-love","alcremie-vanillacream-ribbon","alcremie-vanillacream-star"]
 }, {
@@ -141,7 +141,7 @@ pokemon = [{
 }, {
     "blacephalon": ["blacephalon"]
 }, {
-    "blastoise": ["blastoise", "blastoise-mega"] //"blastoise-gmax"
+    "blastoise": ["blastoise", "blastoise-gmax", "blastoise-mega"]
 }, {
     "blaziken": ["blaziken", "blaziken-f", "blaziken-mega"]
 }, {
@@ -195,7 +195,7 @@ pokemon = [{
 }, {
     "burmy": ["burmy", "burmy-sandy", "burmy-trash"]
 }, {
-    "butterfree": ["butterfree", "butterfree-gmax"]
+    "butterfree": ["butterfree", "butterfree-f", "butterfree-gmax"]
 }, {
     "buzzwole": ["buzzwole"]
 }, {
@@ -275,7 +275,7 @@ pokemon = [{
 }, {
     "cinccino": ["cinccino"]
 }, {
-    "cinderace": ["cinderace"] //"cinderace-gmax"
+    "cinderace": ["cinderace", "cinderace-gmax"]
 }, {
     "clamperl": ["clamperl"]
 }, {
@@ -371,7 +371,7 @@ pokemon = [{
 }, {
     "darkrai": ["darkrai"]
 }, {
-    "darmanitan": ["darmanitan", "darmanitan-galar-zen", "darmanitan-galar", "darmanitan-zen"]
+    "darmanitan": ["darmanitan", "darmanitan-galar", "darmanitan-galarzen", "darmanitan-zen"]
 }, {
     "dartrix": ["dartrix"]
 }, {
@@ -413,9 +413,9 @@ pokemon = [{
 }, {
     "ditto": ["ditto"]
 }, {
-    "dodrio": ["dodrio"] //"dodrio-f"
+    "dodrio": ["dodrio", "dodrio-f"]
 }, {
-    "doduo": ["doduo"] //"doduo-f"
+    "doduo": ["doduo", "doduo-f"]
 }, {
     "dolliv": ["dolliv"]
 }, {
@@ -659,7 +659,7 @@ pokemon = [{
 }, {
     "glalie": ["glalie", "glalie-mega"]
 }, {
-    "glameow": ["glameow"] //"glameow-g6"
+    "glameow": ["glameow"]
 }, {
     "glastrier": ["glastrier"]
 }, {
@@ -671,13 +671,13 @@ pokemon = [{
 }, {
     "gliscor": ["gliscor"]
 }, {
-    "gloom": ["gloom"] //"gloom-f"
+    "gloom": ["gloom", "gloom-f"]
 }, {
     "gogoat": ["gogoat"]
 }, {
     "golbat": ["golbat", "golbat-f"]
 }, {
-    "goldeen": ["goldeen"] //"goldeen-f"
+    "goldeen": ["goldeen", "goldeen-f"]
 }, {
     "golduck": ["golduck"]
 }, {
@@ -749,7 +749,7 @@ pokemon = [{
 }, {
     "guzzlord": ["guzzlord"]
 }, {
-    "gyarados": ["gyarados", "gyarados-mega"]
+    "gyarados": ["gyarados", "gyarados-f", "gyarados-mega"]
 }, {
     "hakamoo": ["hakamoo"]
 }, {
@@ -817,7 +817,7 @@ pokemon = [{
 }, {
     "hydreigon": ["hydreigon"]
 }, {
-    "hypno": ["hypno"] //"hypno-f"
+    "hypno": ["hypno", "hypno-f"]
 }, {
     "igglybuff": ["igglybuff"]
 }, {
@@ -857,7 +857,7 @@ pokemon = [{
 }, {
     "kabutops": ["kabutops"]
 }, {
-    "kadabra": ["kadabra"] //"kadabra-f"
+    "kadabra": ["kadabra", "kadabra-f"]
 }, {
     "kakuna": ["kakuna"]
 }, {
@@ -915,7 +915,7 @@ pokemon = [{
 }, {
     "kyogre": ["kyogre", "kyogre-primal"]
 }, {
-    "kyurem": ["kyurem", "kyurem-black", "kyurem-white"] // white-overdrive, black-overdrive
+    "kyurem": ["kyurem", "kyurem-black", "kyurem-white"]
 }, {
     "lairon": ["lairon"]
 }, {
@@ -1371,7 +1371,7 @@ pokemon = [{
 }, {
     "ragingbolt": ["ragingbolt"]
 }, {
-    "raichu": ["raichu", "raichu-alola"]
+    "raichu": ["raichu", "raichu-alola", "raichu-f"]
 }, {
     "raikou": ["raikou"]
 }, {
@@ -1383,7 +1383,7 @@ pokemon = [{
 }, {
     "raticate": ["raticate", "raticate-alola", "raticate-f"]
 }, {
-    "rattata": ["rattata", "rattata-alola"]
+    "rattata": ["rattata", "rattata-alola", "rattata-f"]
 }, {
     "rayquaza": ["rayquaza", "rayquaza-mega"]
 }, {
@@ -1413,13 +1413,13 @@ pokemon = [{
 }, {
     "rhydon": ["rhydon", "rhydon-f"]
 }, {
-    "rhyhorn": ["rhyhorn"] //"rhyhorn-f"
+    "rhyhorn": ["rhyhorn", "rhyhorn-f"]
 }, {
     "rhyperior": ["rhyperior", "rhyperior-f"]
 }, {
     "ribombee": ["ribombee"]
 }, {
-    "rillaboom": ["rillaboom"] //"rillaboom-gigantamax"
+    "rillaboom": ["rillaboom", "rillaboom-gmax"]
 }, {
     "riolu": ["riolu"]
 }, {
@@ -1493,7 +1493,7 @@ pokemon = [{
 }, {
     "seadra": ["seadra"]
 }, {
-    "seaking": ["seaking"] //"seaking-f"
+    "seaking": ["seaking", "seaking-f"]
 }, {
     "sealeo": ["sealeo"]
 }, {
@@ -1849,7 +1849,7 @@ pokemon = [{
 }, {
     "ursaring": ["ursaring", "ursaring-f"]
 }, {
-    "urshifu": ["urshifu", "urshifu-rapidstrike"] //"urshifu-gmax", "urshifu-rapidstrike-gmax"
+    "urshifu": ["urshifu", "urshifu-gmax", "urshifu-rapidstrike", "urshifu-rapidstrike-gmax"]
 }, {
     "uxie": ["uxie"]
 }, {
@@ -1871,7 +1871,7 @@ pokemon = [{
 }, {
     "venonat": ["venonat"]
 }, {
-    "venusaur": ["venusaur", "venusaur-mega"]//"venusaur-gmax"
+    "venusaur": ["venusaur", "venusaur-f", "venusaur-gmax", "venusaur-mega"]
 }, {
     "vespiquen": ["vespiquen"]
 }, {
@@ -1885,7 +1885,7 @@ pokemon = [{
 }, {
     "vikavolt": ["vikavolt"]
 }, {
-    "vileplume": ["vileplume"] //"vileplume-f"
+    "vileplume": ["vileplume", "vileplume-f"]
 }, {
     "virizion": ["virizion"]
 }, {
@@ -1993,7 +1993,7 @@ pokemon = [{
 }, {
     "zekrom": ["zekrom"]
 }, {
-    "zeraora": ["zeraora"] //"zeraora-stand"
+    "zeraora": ["zeraora"]
 }, {
     "zigzagoon": ["zigzagoon", "zigzagoon-galar"]
 }, {
@@ -2008,7 +2008,7 @@ pokemon = [{
     "zygarde": ["zygarde", "zygarde-10", "zygarde-complete"]
 }]
 
-fakemon = [{
+const fakemon = [{
     "astrolotl": ["astrolotl"]
 }, {
     "aurumoth": ["aurumoth"]
@@ -2078,7 +2078,7 @@ fakemon = [{
     "voodoom": ["voodoom", "voodoom-f"]
 }]
 
-afd_pokemon = [
+const afd_pokemon = [
   {
     'abomasnow': ['abomasnow', 'abomasnow-f', 'abomasnow-mega']
   },
@@ -2107,7 +2107,7 @@ afd_pokemon = [
     'alakazam': ['alakazam', 'alakazam-f', 'alakazam-mega']
   },
   {
-    'alcremie': ['alcremie', 'alcremie-caramel', 'alcremie-caramelswirl', 'alcremie-gmax', 'alcremie-lemon', 'alcremie-lemoncream', 'alcremie-matcha', 'alcremie-matchacream', 'alcremie-mint', 'alcremie-mintcream', 'alcremie-rainbow', 'alcremie-rainbowswirl', 'alcremie-rubycream', 'alcremie-rubyswirl', 'alcremie-salted', 'alcremie-saltedcream']
+    'alcremie': ['alcremie', 'alcremie-caramelswirl', 'alcremie-gmax', 'alcremie-lemoncream', 'alcremie-matchacream', 'alcremie-mintcream', 'alcremie-rainbowswirl', 'alcremie-rubycream', 'alcremie-rubyswirl', 'alcremie-saltedcream']
   },
   {
     'alomomola': ['alomomola']
@@ -2152,7 +2152,7 @@ afd_pokemon = [
     'arcanine': ['arcanine', 'arcanine-hisui']
   },
   {
-    'arceus': ['arceus', 'arceus-', 'arceus-bug', 'arceus-dark', 'arceus-dragon', 'arceus-electric', 'arceus-fairy', 'arceus-fighting', 'arceus-fire', 'arceus-flying', 'arceus-ghost', 'arceus-grass', 'arceus-ground', 'arceus-ice', 'arceus-poison', 'arceus-psychic', 'arceus-rock', 'arceus-steel', 'arceus-water']
+    'arceus': ['arceus', 'arceus-bug', 'arceus-dark', 'arceus-dragon', 'arceus-electric', 'arceus-fairy', 'arceus-fighting', 'arceus-fire', 'arceus-flying', 'arceus-ghost', 'arceus-grass', 'arceus-ground', 'arceus-ice', 'arceus-poison', 'arceus-psychic', 'arceus-rock', 'arceus-steel', 'arceus-water']
   },
   {
     'archaludon': ['archaludon']
@@ -5225,7 +5225,7 @@ afd_pokemon = [
   },
 ]
 
-afd_fakemon = [
+const afd_fakemon = [
   {
     'ababo': ['ababo']
   },
@@ -5456,7 +5456,7 @@ afd_fakemon = [
   },
 ]
 
-floating_pokemon = [
+const floating_pokemon = [
     "abra",
     "aegislash",
     "aegislash-blade",
