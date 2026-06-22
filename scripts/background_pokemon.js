@@ -95,7 +95,7 @@ pokemon = [{
 }, {
     "banette": ["banette", "banette-mega"]
 }, {
-    "barbaracle": ["barbaracle"]
+    "barbaracle": ["barbaracle", "barbaracle-mega"]
 }, {
     "barboach": ["barboach"]
 }, {
@@ -237,7 +237,7 @@ pokemon = [{
 }, {
     "cetoddle": ["cetoddle"]
 }, {
-    "chandelure": ["chandelure"]
+    "chandelure": ["chandelure", "chandelure-mega"]
 }, {
     "chansey": ["chansey"]
 }, {
@@ -257,7 +257,7 @@ pokemon = [{
 }, {
     "cherubi": ["cherubi"]
 }, {
-    "chesnaught": ["chesnaught"]
+    "chesnaught": ["chesnaught", "chesnaught-mega"]
 }, {
     "chespin": ["chespin"]
 }, {
@@ -267,7 +267,7 @@ pokemon = [{
 }, {
     "chimchar": ["chimchar"]
 }, {
-    "chimecho": ["chimecho"]
+    "chimecho": ["chimecho", "chimecho-mega"]
 }, {
     "chinchou": ["chinchou"]
 }, {
@@ -327,7 +327,7 @@ pokemon = [{
 }, {
     "cottonee": ["cottonee"]
 }, {
-    "crabominable": ["crabominable"]
+    "crabominable": ["crabominable", "crabominable-mega"]
 }, {
     "crabrawler": ["crabrawler"]
 }, {
@@ -389,7 +389,7 @@ pokemon = [{
 }, {
     "delibird": ["delibird"]
 }, {
-    "delphox": ["delphox"]
+    "delphox": ["delphox", "delphox-mega"]
 }, {
     "deoxys": ["deoxys", "deoxys-attack", "deoxys-defense", "deoxys-speed"]
 }, {
@@ -431,7 +431,7 @@ pokemon = [{
 }, {
     "dracozolt": ["dracozolt"]
 }, {
-    "dragalge": ["dragalge"]
+    "dragalge": ["dragalge", "dragalge-mega"]
 }, {
     "dragapult": ["dragapult"]
 }, {
@@ -441,7 +441,7 @@ pokemon = [{
 }, {
     "drakloak": ["drakloak"]
 }, {
-    "drampa": ["drampa"]
+    "drampa": ["drampa", "drampa"]
 }, {
     "drapion": ["drapion"]
 }, {
@@ -491,7 +491,7 @@ pokemon = [{
 }, {
     "eelektrik": ["eelektrik"]
 }, {
-    "eelektross": ["eelektross"]
+    "eelektross": ["eelektross", "eelektross-mega"]
 }, {
     "eevee": ["eevee", "eevee-gigantamax"]
 }, {
@@ -533,7 +533,7 @@ pokemon = [{
 }, {
     "eternatus": ["eternatus", "eternatus-eternamax"]
 }, {
-    "excadrill": ["excadrill"]
+    "excadrill": ["excadrill", "excadrill-mega"]
 }, {
     "exeggcute": ["exeggcute"]
 }, {
@@ -541,7 +541,7 @@ pokemon = [{
 }, {
     "exploud": ["exploud"]
 }, {
-    "falinks": ["falinks"]
+    "falinks": ["falinks", "falinks-mega"]
 }, {
     "farfetchd": ["farfetchd", "farfetchd-galar"]
 }, {
@@ -583,7 +583,7 @@ pokemon = [{
 }, {
     "floatzel": ["floatzel", "floatzel-f"]
 }, {
-    "floette": ["floette", "floette-blue", "floette-eternal", "floette-orange", "floette-white", "floette-yellow"]
+    "floette": ["floette", "floette-blue", "floette-eternal", "floette-orange", "floette-white", "floette-yellow", "floette-mega"]
 }, {
     "floragato": ["floragato"]
 }, {
@@ -667,7 +667,7 @@ pokemon = [{
 }, {
     "glimmet": ["glimmet"]
 }, {
-    "glimmora": ["glimmora"]
+    "glimmora": ["glimmora", "glimmora-mega"]
 }, {
     "gliscor": ["gliscor"]
 }, {
@@ -687,7 +687,7 @@ pokemon = [{
 }, {
     "golisopod": ["golisopod"]
 }, {
-    "golurk": ["golurk"]
+    "golurk": ["golurk", "golurk-mega"]
 }, {
     "goodra": ["goodra", "goodra-hisui"]
 }, {
@@ -721,7 +721,7 @@ pokemon = [{
 }, {
     "greedent": ["greedent"]
 }, {
-    "greninja": ["greninja", "greninja-active"]
+    "greninja": ["greninja", "greninja-active", "greninja-mega"]
 }, {
     "grimer": ["grimer", "grimer-alola"]
 }, {
@@ -765,7 +765,7 @@ pokemon = [{
 }, {
     "haunter": ["haunter"]
 }, {
-    "hawlucha": ["hawlucha"]
+    "hawlucha": ["hawlucha", "hawlucha-mega"]
 }, {
     "haxorus": ["haxorus"]
 }, {
@@ -1025,7 +1025,7 @@ pokemon = [{
 }, {
     "makuhita": ["makuhita"]
 }, {
-    "malamar": ["malamar"]
+    "malamar": ["malamar", "malamar-mega"]
 }, {
     "mamoswine": ["mamoswine", "mamoswine-f"]
 }, {
@@ -1077,7 +1077,7 @@ pokemon = [{
 }, {
     "meowscarada": ["meowscarada"]
 }, {
-    "meowstic": ["meowstic", "meowstic-f"]
+    "meowstic": ["meowstic", "meowstic-f", "meowstic-fmega"]
 }, {
     "meowth": ["meowth", "meowth-alola", "meowth-galar", "meowth-gigantamax"]
 }, {
@@ -1347,7 +1347,7 @@ pokemon = [{
 }, {
     "purugly": ["purugly"]
 }, {
-    "pyroar": ["pyroar", "pyroar-f"]
+    "pyroar": ["pyroar", "pyroar-f", "pyroar-mega"]
 }, {
     "pyukumuku": ["pyukumuku"]
 }, {
@@ -1371,7 +1371,7 @@ pokemon = [{
 }, {
     "ragingbolt": ["ragingbolt"]
 }, {
-    "raichu": ["raichu", "raichu-alola"]
+    "raichu": ["raichu", "raichu-alola", "raichu-megax", "raichu-megay"]
 }, {
     "raikou": ["raikou"]
 }, {
@@ -1477,13 +1477,13 @@ pokemon = [{
 }, {
     "scizor": ["scizor", "scizor-mega"]
 }, {
-    "scolipede": ["scolipede"]
+    "scolipede": ["scolipede", "scolipede-mega"]
 }, {
     "scorbunny": ["scorbunny"]
 }, {
-    "scovillain": ["scovillain"]
+    "scovillain": ["scovillain", "scovillain-mega"]
 }, {
-    "scrafty": ["scrafty"]
+    "scrafty": ["scrafty", "scrafty-mega"]
 }, {
     "scraggy": ["scraggy"]
 }, {
@@ -1661,7 +1661,7 @@ pokemon = [{
 }, {
     "stantler": ["stantler"]
 }, {
-    "staraptor": ["staraptor", "staraptor-f"]
+    "staraptor": ["staraptor", "staraptor-mega"]
 }, {
     "staravia": ["staravia", "staravia-f"]
 }, {
@@ -4849,16 +4849,19 @@ floating_pokemon = [
     "butterfree",
     "butterfree-f",
     "butterfree-gigantamax",
+    "carbink",
     "castform",
     "castform-rainy",
     "castform-snowy",
     "castform-sunny",
     "celebi",
     "chandelure",
+    "chandelure-mega",
     "charizard",
     "charizard-megax",
     "charizard-megay",
     "chimecho",
+    "chimecho-mega",
     "chingling",
     "claydol",
     "clefable-mega",
@@ -4883,11 +4886,13 @@ floating_pokemon = [
     "diancie-mega",
     "doublade",
     "dragalge",
+    "dragalge-mega",
     "dragapult",
     "dragonite",
     "dragonite-mega",
     "drakloak",
     "drampa",
+    "drampa-mega",
     "dreepy",
     "drifblim",
     "drifloon",
@@ -4896,6 +4901,7 @@ floating_pokemon = [
     "duskull",
     "dustox",
     "dustox-f",
+    "eelektross-mega",
     "elgyem",
     "emolga",
     "enamorus",
@@ -4919,6 +4925,7 @@ floating_pokemon = [
     "floette-orange",
     "floette-white",
     "floette-yellow",
+    "floette-mega",
     "fluttermane",
     "flygon",
     "forretress",
@@ -4935,9 +4942,11 @@ floating_pokemon = [
     "gligar-f",
     "glimmet",
     "glimmora",
+    "glimmora-mega",
     "gliscor",
     "golbat",
     "golbat-f",
+    "greninja-mega",
     "gyarados",
     "gyarados-mega",
     "haunter",
@@ -4976,9 +4985,11 @@ floating_pokemon = [
     "magnemite",
     "magneton",
     "magnezone",
+    "malamar-mega",
     "manaphy",
     "mandibuzz",
     "masquerain",
+    "meowstic-fmega",
     "mesprit",
     "metagross-mega",
     "mew",
