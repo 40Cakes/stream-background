@@ -5076,7 +5076,6 @@ floating_pokemon = [
     "squawkabilly-white",
     "squawkabilly-yellow",
     "staraptor",
-    "staraptor-f",
     "staravia",
     "staravia-f",
     "starmie",
