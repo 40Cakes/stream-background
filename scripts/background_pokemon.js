@@ -4881,6 +4881,7 @@ floating_pokemon = [
     "cryogonal",
     "cutiefly",
     "darkrai",
+    "delphox-mega",
     "dhelmise",
     "diancie",
     "diancie-mega",
