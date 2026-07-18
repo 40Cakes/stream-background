@@ -441,7 +441,7 @@ pokemon = [{
 }, {
     "drakloak": ["drakloak"]
 }, {
-    "drampa": ["drampa", "drampa"]
+    "drampa": ["drampa", "drampa-mega"]
 }, {
     "drapion": ["drapion"]
 }, {
