@@ -17,7 +17,7 @@ pokemon = [{
 }, {
     "alakazam": ["alakazam", "alakazam-mega"]
 }, {
-    "alcremie": ["alcremie", "alcremie-caramel-swirl", "alcremie-gigantamax", "alcremie-lemon-cream", "alcremie-matcha-cream", "alcremie-mint-cream", "alcremie-rainbow-swirl", "alcremie-ruby-cream", "alcremie-ruby-swirl", "alcremie-salted-cream", "alcremie-vanilla-cream-berry", "alcremie-vanilla-cream-clover", "alcremie-vanilla-cream-flower", "alcremie-vanilla-cream-love", "alcremie-vanilla-cream-ribbon", "alcremie-vanilla-cream-star"]
+    "alcremie": ["alcremie", "alcremie-caramelswirl", "alcremie-gigantamax", "alcremie-lemoncream", "alcremie-matchacream", "alcremie-mintcream", "alcremie-rainbowswirl", "alcremie-rubycream", "alcremie-rubyswirl", "alcremie-saltedcream", "alcremie-vanillacream-berry", "alcremie-vanillacream-clover", "alcremie-vanillacream-flower", "alcremie-vanillacream-love", "alcremie-vanillacream-ribbon", "alcremie-vanillacream-star"]
 }, {
     "alomomola": ["alomomola"]
 }, {
