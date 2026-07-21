@@ -5177,3 +5177,11 @@ floating_pokemon = [
     "zubat-f"
 ]
 
+spider_pokemon = [
+    "araquanid",
+    "ariados",
+    "dewpider",
+    "spidops",
+    "spinarak",
+    "tarountula",
+]

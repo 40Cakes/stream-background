@@ -11,6 +11,7 @@ const config = {
     sphealSpin: true, // Spinny boi
     afd: true, // April Fools day sprite replacements
     snowdot: true, // Add Snowdot to background during December
+    stillSpiderOdds: 1 / 16,
 };
 
 // Create background elements on load
@@ -78,6 +79,9 @@ function create() {
         let specialClass = "";
         if (form === "wailord" && config.bigWailords) specialClass = "wailord";
         if (form === "spheal" && config.sphealSpin) specialClass = "spheal";
+        if (spider_pokemon.includes(form) && Math.random() < config.stillSpiderOdds) {
+            spriteExt = "png"
+        }
 
         // Append the Pokémon sprite
         onscreenPokemon += `
