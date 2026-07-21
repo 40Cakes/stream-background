@@ -5181,6 +5181,8 @@ spider_pokemon = [
     "araquanid",
     "ariados",
     "dewpider",
+    "galvantula",
+    "joltik",
     "spidops",
     "spinarak",
     "tarountula",
