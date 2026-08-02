@@ -263,6 +263,8 @@ pokemon = [{
 }, {
     "chewtle": ["chewtle"]
 }, {
+    "chien-pao": ["chienpao"]
+},{
     "chikorita": ["chikorita"]
 }, {
     "chimchar": ["chimchar"]
@@ -273,6 +275,8 @@ pokemon = [{
 }, {
     "chingling": ["chingling"]
 }, {
+    "chi-yu": ["chiyu"]
+},{
     "cinccino": ["cinccino"]
 }, {
     "cinderace": ["cinderace", "cinderace-gigantamax"]
@@ -559,6 +563,8 @@ pokemon = [{
 }, {
     "ferrothorn": ["ferrothorn"]
 }, {
+    "fezandipiti": ["fezandipiti"]
+},{
     "fidough": ["fidough"]
 }, {
     "finizen": ["finizen"]
@@ -1145,6 +1151,8 @@ pokemon = [{
 }, {
     "munchlax": ["munchlax"]
 }, {
+    "munkidori": ["munkidori"]
+},{
     "munna": ["munna"]
 }, {
     "murkrow": ["murkrow", "murkrow-f"]
@@ -1205,6 +1213,8 @@ pokemon = [{
 }, {
     "oinkologne": ["oinkologne", "oinkologne-f"]
 }, {
+    "okidogi": ["okidogi"]
+},{
     "omanyte": ["omanyte"]
 }, {
     "omastar": ["omastar"]
@@ -1761,6 +1771,8 @@ pokemon = [{
 }, {
     "timburr": ["timburr"]
 }, {
+    "ting-lu": ["tinglu"]
+},{
     "tinkatink": ["tinkatink"]
 }, {
     "tinkaton": ["tinkaton"]
@@ -1945,6 +1957,8 @@ pokemon = [{
 }, {
     "wobbuffet": ["wobbuffet", "wobbuffet-f"]
 }, {
+    "wo-chien": ["wochien"]
+},{
     "woobat": ["woobat"]
 }, {
     "wooloo": ["wooloo"]
@@ -4912,6 +4926,7 @@ floating_pokemon = [
     "eternatus",
     "eternatus-eternamax",
     "fearow",
+    "fezandipiti",
     "flabebe",
     "flabebe-blue",
     "flabebe-orange",
